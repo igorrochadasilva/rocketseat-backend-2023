@@ -163,3 +163,164 @@ Questão 9. Como é representado um relacionamento N para N em um banco de dados
 
 Resposta
 Com uma tabela intermediária que registra as associações entre os registros nas duas tabelas.
+
+## Caso de uso e design patters
+
+**Criação de um usuário**
+
+- Criação de roda de novo usuário
+
+**Controller de registro**
+
+- Criando controller de registro de novo usuário
+
+**Hash da senha e validação**
+
+- instalando bcryptjs e suas tipagem
+- Utilizando hash para criar senha
+
+**Caso de uso de registro**
+
+- Criado use-case registro, onde ficará o registro do usuario com prisma.
+- Desta maneira deixamos as ações no banco de dados separados das validações.
+
+**Repository Pattern**
+
+- Os arquivos dentro do repository ficaram encarregados somente de executar ações no db
+
+**Inversão de dependências**
+
+- SOLID
+- Dependency Inversion Principle
+
+**Interface do repositório**
+
+- Criado interface user-repository que defini os métodos e parametros que devem tem a class
+
+**Lidando com erros do use case**
+
+- Criado class user-already-exists error para lidar com mensagens de erro.
+
+**Handler de erros global**
+
+- Criado `setErrorHandler` no file app, para lidar com erros de forma global.
+
+**Quiz - Caso de Uso e Design Patterns**
+
+Questão 1. Para que servem os casos de uso?
+Resposta
+Para orquestrar as entidades e regras da aplicação
+
+Questão 2. Quais a principais responsabilidades dos Controllers?
+Resposta
+Intermediar a requisição, repassar os dados para os casos de uso e retornar dados quando necessário.
+
+Questão 3. Qual é o fator de custo no Bcrypt?
+Resposta
+O número de iterações usadas na função de hash
+
+Questão 4. O que é um "salt" no contexto de hashing de senha?
+Resposta
+Um valor aleatório adicionado à senha antes de gerar o hash
+
+Questão 5. Para que serve o padrão Repository?
+Resposta
+Para abstrair a persistência de dados
+
+Questão 6. No SOLID, para que serve a Inversão de dependência?
+Resposta
+Para evitar acoplamento e tornar a aplicação mais flexível
+
+Questão 7. Qual é o principal benefício da utilização de interfaces de contrato na inversão de dependência?
+Resposta
+Permitir a substituição de implementações sem modificar o código cliente
+
+Questão 8. Ao utilizarmos uma interface para um repositório, é correto afirmar que:
+Resposta
+Nossa aplicação dependerá de uma abstração e isso a tornará mais flexível e menos acoplada
+
+Questão 9. No Fastify, qual o método que nos auxilia a criarmos erros globais?
+Resposta
+setErrorHandler
+
+## Degisn Patterns & Testes
+
+**Configurando Vitest**
+
+- Instalado vitest and vite-tsconfig-paths
+- Configurado vite.config.ts
+- Criado register.spec.ts
+
+**Primeiro teste unitário**
+
+- Criando teste unitário de registro totalmente desconectada de suas dependências.
+- Teste unitario nunca vai tocar em banco de dados ou camadas externas da aplicação.
+- Principal vantagem de inversão de dependências para testes,
+
+**In-Memory Databases**
+
+- Com os dados em memoria, os testes ficam bem mais rapido.
+- Criando pasta `in-memory` e `file in-memory-users-repository`
+- Criado teste de registrar usuário
+- Criado teste de hash de senha se é valido
+- Criado teste de duplicação de usuário e retornando erro
+
+**Gerando coverage de testes**
+
+- Sempre passar await quando é utilizado um expect que aguarda uma promise
+- Gerar coverage e ver porcentagem de testes feitos de acordo com servidos da aplicação
+
+**Utilizando UI do Vitest**
+
+- npm i -D @vitest/ui: para instalar vitest ui
+
+**Quiz - Design Patterns & Testes**
+
+Questão 1. Quais são as vantagens de usar um InMemoryDatabase em testes?
+Resposta 
+Todas as anteriores
+
+Questão 2. O que é um "falso" InMemoryTestDatabase?
+Resposta 
+Um banco de dados que armazena os dados em memória, mas também usa o disco para armazenar os dados permanentemente
+
+Questão 3. Qual é a principal razão para medir a cobertura de testes?
+Resposta 
+Identificar fluxos no código que não foram testados   
+
+**Implementando casos de uso**
+
+**caso de uso de autenticação**
+- Created "invalid-credentials-error" file to return message error
+- Created "authenticate" file use-case, it's responsable to find email from DB, valid the email and password and return user got from db.
+
+**testes e controller de autenticação**
+- Created the "authenticate.spec.ts" file to test the authenticate function
+- Created tests to wrong password, wrong email and when both are right
+
+**Refatorando instâncias nos testes**
+- Using the  "beforeEach" to execute the repository before the tests to instance them
+
+**Utilizando Factory Pattern**
+- Creating factory to instance class to use in the controls
+
+**Caso de uso de perfil**
+- Creating profile use case and test, "get-user-profile" creted
+
+**Caso de uso de checkin**
+- Created use case `check-in-spec` that will be responsible to do the check-in of the users
+- Created the checkIn in memory `in-memory-check-ins-repository.ts` to test in memory
+- Created the checkIn spec test `check-in-spec.ts` to test `should be able to check in`
+
+**TDD & Mocking**
+**Validando data do checkin**
+**Validando distância do checkin**
+**Caso de uso de criação de academia**
+**Caso de uso de histórico**
+**Caso de uso de métricas**
+**Caso de uso de busca de academias**
+**Caso de uso de academias próximas**
+**Caso de uso de validar de checkin**
+**Validando horário do checkin**
+
+Quiz - Implementando casos de uso
