@@ -354,7 +354,18 @@ Faster Debugging: When a test fails, it's usually easier to pinpoint the issue s
 - created "get-distance-between-coordinate" to create the calculate to get the distance between point A and B
 
 **Caso de uso de criação de academia**
+- creating "create-gym" use-case.
+- the create-gym use case will receive "title, description, phone, latitude, longitude"
+- Created function "create" inside the in-memory-gyms-repository to create gym
+- Created "create-gym.spec.ts" file
+- Created "max-distance-error" file error
+- Created "max-number-of-check-ins-error" file error
+
 **Caso de uso de histórico**
+- Creating "fetch-member-check-ins-history.ts" use case
+- Creating "fetch-member-check-ins-history.spec.ts"
+- Creating new function inside the "CheckInsRepository", "findManyByUserId"
+
 **Caso de uso de métricas**
 **Caso de uso de busca de academias**
 **Caso de uso de academias próximas**
