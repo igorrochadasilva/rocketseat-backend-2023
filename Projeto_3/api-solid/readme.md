@@ -313,8 +313,46 @@ Identificar fluxos no código que não foram testados
 - Created the checkIn spec test `check-in-spec.ts` to test `should be able to check in`
 
 **TDD & Mocking**
+
+Software development methodology where developers write tests before writing the actual code. This approach emphasizes writing automated tests that define the desired behavior of the code, and then writing the code itself to fulfill those tests.
+
+In the context of backend development, TDD involves the following steps:
+
+Write a Test: Begin by writing a test that describes the functionality you want to implement. This test will initially fail since you haven't written the actual code yet.
+
+Run the Test: Run all the tests, including the new one you just wrote. Since the new test will fail, you'll know that the desired functionality is not yet implemented.
+
+Write Code: Write the minimum amount of code necessary to make the failing test pass. This means implementing the functionality described by the test.
+
+Run Tests Again: Run all the tests again. If the new test passes and all existing tests continue to pass, you can be confident that your new code didn't break any existing functionality.
+
+Refactor: Once the tests pass, you can refactor your code if necessary to improve its structure, performance, or readability, knowing that you have tests in place to catch regressions.
+
+Repeat: Repeat this cycle for each new feature or piece of functionality you want to add to your backend.
+
+Benefits of TDD in backend development include:
+
+Higher Code Quality: Writing tests before code encourages developers to think about the requirements and design before diving into implementation.
+
+Regression Prevention: The automated tests act as a safety net, catching regressions that might occur when changes are made in the future.
+
+Design Improvement: Writing tests first often leads to more modular and loosely coupled code, making it easier to maintain and extend.
+
+Documentation: The tests serve as living documentation of how the code is expected to behave.
+
+Faster Debugging: When a test fails, it's usually easier to pinpoint the issue since you know exactly what functionality is affected.
+
 **Validando data do checkin**
+- npm i dayjs, to work with date info
+- valid the date using dayjs, according with different date
+- creating "gyms-repository"
+- Updated "CheckInUseCaseRequest" and added "latitude" and "longitude"
+
+
 **Validando distância do checkin**
+- creating test: "shoud not be able to check in on distant gym" inside the check-in.spec.ts
+- created "get-distance-between-coordinate" to create the calculate to get the distance between point A and B
+
 **Caso de uso de criação de academia**
 **Caso de uso de histórico**
 **Caso de uso de métricas**
