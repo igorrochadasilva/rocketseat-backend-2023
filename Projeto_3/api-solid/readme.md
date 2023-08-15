@@ -393,4 +393,6 @@ Faster Debugging: When a test fails, it's usually easier to pinpoint the issue s
 
 **Validando horário do checkin**
 
+- Creating "late-check-in-validation-error.ts" file to show error message
+
 Quiz - Implementando casos de uso
