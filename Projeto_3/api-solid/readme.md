@@ -366,6 +366,7 @@ Faster Debugging: When a test fails, it's usually easier to pinpoint the issue s
 - Creating "fetch-member-check-ins-history.spec.ts"
 - Creating new function inside the "CheckInsRepository", "findManyByUserId"
 
+
 **Caso de uso de métricas**
 **Caso de uso de busca de academias**
 **Caso de uso de academias próximas**
