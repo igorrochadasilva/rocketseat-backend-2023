@@ -380,9 +380,17 @@ Faster Debugging: When a test fails, it's usually easier to pinpoint the issue s
 - Creating "featch-nearby-gyms.ts" use case.
 - Creating method "findManyNearby" inside "gymns-repository"
 - Creating method "findManyNearby" inside "in-memory-gyms-repository"
-- creating "featch-nearby-gyms.ts" for tests
+- Creating "featch-nearby-gyms.ts" for tests
 
 **Caso de uso de validar de checkin**
+- Creating "validate-check-in.ts" use case.
+- Creating method "findById" inside "check-ins-repository"
+- Creating method "findById" inside "in-memory-gyms-check-ins"
+- Creating method "save" inside "check-ins-repository"
+- Creating method "save" inside "in-memory-gyms-check-ins"
+- creating "validate-check-in.spec.ts" for tests
+
+
 **Validando horário do checkin**
 
 Quiz - Implementando casos de uso
