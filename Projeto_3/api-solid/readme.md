@@ -373,10 +373,15 @@ Faster Debugging: When a test fails, it's usually easier to pinpoint the issue s
 
 **Caso de uso de busca de academias**
 - Creating "search-gyms.ts" use case.
-- Creating method "searchMany" inside "check-ins-repository"
+- Creating method "searchMany" inside "gyms-repository"
 - creating "search-gyms.spec.ts" for tests
 
 **Caso de uso de academias próximas**
+- Creating "featch-nearby-gyms.ts" use case.
+- Creating method "findManyNearby" inside "gymns-repository"
+- Creating method "findManyNearby" inside "in-memory-gyms-repository"
+- creating "featch-nearby-gyms.ts" for tests
+
 **Caso de uso de validar de checkin**
 **Validando horário do checkin**
 
