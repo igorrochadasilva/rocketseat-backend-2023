@@ -345,55 +345,55 @@ Faster Debugging: When a test fails, it's usually easier to pinpoint the issue s
 **Validando data do checkin**
 - npm i dayjs, to work with date info
 - valid the date using dayjs, according with different date
-- creating "gyms-repository"
-- Updated "CheckInUseCaseRequest" and added "latitude" and "longitude"
+- creating `gyms-repository`
+- Updated `CheckInUseCaseRequest` and added `latitude` and `longitude`
 
 
 **Validando distância do checkin**
-- creating test: "shoud not be able to check in on distant gym" inside the check-in.spec.ts
-- created "get-distance-between-coordinate" to create the calculate to get the distance between point A and B
+- creating test: `shoud not be able to check in on distant gym` inside the check-in.spec.ts
+- created `get-distance-between-coordinate` to create the calculate to get the distance between point A and B
 
 **Caso de uso de criação de academia**
-- creating "create-gym" use-case.
-- the create-gym use case will receive "title, description, phone, latitude, longitude"
-- Created function "create" inside the in-memory-gyms-repository to create gym
-- Created "create-gym.spec.ts" file
-- Created "max-distance-error" file error
-- Created "max-number-of-check-ins-error" file error
+- creating `create-gym` use-case.
+- the create-gym use case will receive `title, description, phone, latitude, longitude`
+- Created function `create` inside the in-memory-gyms-repository to create gym
+- Created `create-gym.spec.ts` file
+- Created `max-distance-error` file error
+- Created `max-number-of-check-ins-error` file error
 
 **Caso de uso de histórico**
-- Creating "fetch-member-check-ins-history.ts" use case
-- Creating "fetch-member-check-ins-history.spec.ts"
-- Creating new function inside the "CheckInsRepository", "findManyByUserId"
+- Creating `fetch-member-check-ins-history.ts` use case
+- Creating `fetch-member-check-ins-history.spec.ts`
+- Creating new function inside the `CheckInsRepository`, `findManyByUserId`
 
 **Caso de uso de métricas**
-- Creating "get-user-metricts.ts" use case.
-- Creating method "countByUserId" inside "check-ins-repository"
-- creating "get-user-metricts.spec.ts" for tests
+- Creating `get-user-metricts.ts` use case.
+- Creating method `countByUserId` inside `check-ins-repository`
+- creating `get-user-metricts.spec.ts` for tests
 
 **Caso de uso de busca de academias**
-- Creating "search-gyms.ts" use case.
-- Creating method "searchMany" inside "gyms-repository"
-- creating "search-gyms.spec.ts" for tests
+- Creating `search-gyms.ts` use case.
+- Creating method `searchMany` inside `gyms-repository`
+- creating `search-gyms.spec.ts` for tests
 
 **Caso de uso de academias próximas**
-- Creating "featch-nearby-gyms.ts" use case.
-- Creating method "findManyNearby" inside "gymns-repository"
-- Creating method "findManyNearby" inside "in-memory-gyms-repository"
-- Creating "featch-nearby-gyms.ts" for tests
+- Creating `featch-nearby-gyms.ts` use case.
+- Creating method `findManyNearby` inside `gymns-repository`
+- Creating method `findManyNearby` inside `in-memory-gyms-repository`
+- Creating `featch-nearby-gyms.ts` for tests
 
 **Caso de uso de validar de checkin**
-- Creating "validate-check-in.ts" use case.
-- Creating method "findById" inside "check-ins-repository"
-- Creating method "findById" inside "in-memory-gyms-check-ins"
-- Creating method "save" inside "check-ins-repository"
-- Creating method "save" inside "in-memory-gyms-check-ins"
-- creating "validate-check-in.spec.ts" for tests
+- Creating `validate-check-in.ts` use case.
+- Creating method `findById` inside `check-ins-repository`
+- Creating method `findById` inside `in-memory-gyms-check-ins`
+- Creating method `save` inside `check-ins-repository`
+- Creating method `save` inside `in-memory-gyms-check-ins`
+- creating `validate-check-in.spec.ts` for tests
 
 
 **Validando horário do checkin**
 
-- Creating "late-check-in-validation-error.ts" file to show error message
+- Creating `late-check-in-validation-error.ts` file to show error message
 
 Quiz - Implementando casos de uso
 
@@ -427,6 +427,8 @@ R: Uma técnica para simular a execução de funções ou objetos
 - Creating methods of the `prisma-repository`
 
 **Repositório de academias**
+- Creating `prisma-gyms-repository.ts` it's implements the `GymsRepository` and it's methods
+- Implemented Haversibe Formula to calculate the distance betwen point A and B
 
 **Factories dos casos de uso**
 
