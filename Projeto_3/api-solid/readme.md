@@ -396,3 +396,66 @@ Faster Debugging: When a test fails, it's usually easier to pinpoint the issue s
 - Creating "late-check-in-validation-error.ts" file to show error message
 
 Quiz - Implementando casos de uso
+
+1. Qual é o objetivo principal de limpar o contexto dos repositórios entre os testes unitários?
+R: Evitar interferências de testes anteriores nos testes subsequentes
+
+2. Seguindo a aula, em qual fase do ciclo de vida dos testes unitários deve ocorrer a limpeza do contexto?
+R: Antes de cada teste
+
+3. Em que tipo de testes a limpeza de contexto é especialmente importante?
+R: Testes de unidade
+
+4. Para que serve o padrão Factory Pattern?
+R: Para abstrair a criação de objetos sem expor a lógica de criação beneficiando a reutilização
+
+5. O que é TDD
+R: Um método de desenvolvimento de software que envolve escrever testes antes do código
+
+6. Quais os ciclos do TDD?
+R: Red, Green, Refactor
+
+7. O que é o mocking?
+R: Uma técnica para simular a execução de funções ou objetos
+
+
+## Controllers & Testes E2E
+
+**Repositórios do Prisma**
+- Updating `prisma-users-repository` and add `findById`
+- Creating `prisma-check-ins-repository` to implement CheckInsRepository
+- Creating methods of the `prisma-repository`
+
+**Repositório de academias**
+
+**Factories dos casos de uso**
+
+**Princípios da autenticação JWT**
+
+**Implementando JWT no Fastify**
+
+**Controller de perfil**
+
+**Criando test environment**
+
+**Organizando NPM scripts**
+
+**Test Environment do Prisma**
+
+**Teste E2E do registro**
+
+**Teste E2E da autenticação**
+
+**Teste E2E do perfil**
+
+**Controller de criação de academia**
+
+**Outros controllers da academia**
+
+**Controllers das rotas de check-ins**
+
+**Testes E2E de rotas de academias**
+
+**Testes E2E de rotas de check-ins**
+
+**Quiz - Controllers & Testes E2E**
