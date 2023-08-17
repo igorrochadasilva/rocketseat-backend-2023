@@ -431,6 +431,16 @@ R: Uma técnica para simular a execução de funções ou objetos
 - Implemented Haversibe Formula to calculate the distance betwen point A and B
 
 **Factories dos casos de uso**
+- Creating `make-authenticate-use-case.ts`
+- Creating `make-check-in-use-case.ts`
+- Creating `make-create-gym-use-case.ts`
+- Creating `make-fetch-nearby-gyms-use-case.ts`
+- Creating `make-fetch-user-metrics-use-case.ts`
+- Creating `make-get-user-metrics-use-case.ts`
+- Creating `make-get-user-profile-use-case.ts`
+- Creating `make-register-use-case.ts`
+- Creating `make-search-gyms-use-case.ts`
+- Creating `make-validate-check-in-use-case.ts`
 
 **Princípios da autenticação JWT**
 
