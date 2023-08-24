@@ -464,6 +464,9 @@ R: Uma técnica para simular a execução de funções ou objetos
 
 **Criando test environment**
 
+- Config test environment to test some cases in differents environments
+- `npm link` inside the vitest-environment-prisma to create a local repository package 
+
 **Organizando NPM scripts**
 
 **Test Environment do Prisma**
