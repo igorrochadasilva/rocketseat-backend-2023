@@ -458,6 +458,9 @@ R: Uma técnica para simular a execução de funções ou objetos
 - When you create the a session and the jwt token, if you try to access the profile, we use the `request.jwtVerify` to check if token exists.
 
 **Controller de perfil**
+- Created `profile controller`
+- Created file `verify-jwt` that it'll be responsable for check if jwt exists when call routes that's necessary the jwt
+- Created middleware that can be used to all the routes that's necessary the verification
 
 **Criando test environment**
 
