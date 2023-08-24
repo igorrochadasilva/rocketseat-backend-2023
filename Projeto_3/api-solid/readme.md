@@ -444,7 +444,18 @@ R: Uma técnica para simular a execução de funções ou objetos
 
 **Princípios da autenticação JWT**
 
+- When the user try to log, is sended the email and password, the backend create the unique token, STATELESS
+- JWT will have: header.payload.sign
+- Think of a JWT (JSON Web Token) like a digital ID card that contains some information about you. This ID card has three parts:7
+- Header: This part says how the ID card was made and how it should be checked.
+- Payload: This is the actual information on the ID card. It can include your name, role, and other details.
+- Signature: It's like a special lock that makes sure the ID card hasn't been changed.
+
 **Implementando JWT no Fastify**
+- Installed JWT: `npm i @fastify/jwt`
+- Created `authenticate.ts` inside the controllers
+- Created `fastify-jwt.d.ts`
+- When you create the a session and the jwt token, if you try to access the profile, we use the `request.jwtVerify` to check if token exists.
 
 **Controller de perfil**
 
