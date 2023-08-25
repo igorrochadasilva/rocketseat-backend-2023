@@ -468,6 +468,9 @@ R: Uma técnica para simular a execução de funções ou objetos
 - `npm link` inside the vitest-environment-prisma to create a local repository package 
 
 **Organizando NPM scripts**
+- Creating script `pretest:e2e` to execute the command before the script
+- the package.json scripts will be organized to automate the vitest-environment-prisma linking process when running the e2e tests. This will be done through the npm-run-all package, allowing the process to run efficiently.
+
 
 **Test Environment do Prisma**
 
