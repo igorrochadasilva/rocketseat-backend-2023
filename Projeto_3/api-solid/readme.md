@@ -471,8 +471,8 @@ R: Uma técnica para simular a execução de funções ou objetos
 - Creating script `pretest:e2e` to execute the command before the script
 - the package.json scripts will be organized to automate the vitest-environment-prisma linking process when running the e2e tests. This will be done through the npm-run-all package, allowing the process to run efficiently.
 
-
 **Test Environment do Prisma**
+- In this class, the objective is to implement the functionality of Prisma's environment file for Vitest. This will be manipulating the `DATABASE_URL` environment variable to generate a new URL with a unique `scheme` and running the migrations. At the end of each test cycle, a `schema` drop will be performed to ensure that each test runs with a clean and isolated environment.
 
 **Teste E2E do registro**
 
