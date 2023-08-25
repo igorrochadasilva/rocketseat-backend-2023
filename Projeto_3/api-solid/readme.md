@@ -475,6 +475,8 @@ R: Uma técnica para simular a execução de funções ou objetos
 - In this class, the objective is to implement the functionality of Prisma's environment file for Vitest. This will be manipulating the `DATABASE_URL` environment variable to generate a new URL with a unique `scheme` and running the migrations. At the end of each test cycle, a `schema` drop will be performed to ensure that each test runs with a clean and isolated environment.
 
 **Teste E2E do registro**
+- the end-to-end test (e2e) is implemented for creating a user in the API, using the Supertest package to carry out HTTP requests. The goal is to test the user creation functionality from the route layer to the database persistence layer, ensuring the integrity of the system as a whole.
+
 
 **Teste E2E da autenticação**
 
