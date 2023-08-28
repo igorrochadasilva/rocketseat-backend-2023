@@ -479,6 +479,8 @@ R: Uma técnica para simular a execução de funções ou objetos
 
 
 **Teste E2E da autenticação**
+- In this class, an e2e test for the authentication controller will be implemented. The purpose of the test is to validate that the session route is returning a valid token as a string. Supertest will be used to perform HTTP requests and Jest to write and run the tests.
+
 
 **Teste E2E do perfil**
 
