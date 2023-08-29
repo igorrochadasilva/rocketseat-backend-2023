@@ -495,6 +495,8 @@ R: Uma técnica para simular a execução de funções ou objetos
 
 
 **Controllers das rotas de check-ins**
+- In this class, you'll create the set of controllers needed for the check-ins feature, including check-in, check-in history, check-in metrics, and check-in validation. After that, these controllers will be added to the routes file corresponding to the check-ins feature.
+
 
 **Testes E2E de rotas de academias**
 
