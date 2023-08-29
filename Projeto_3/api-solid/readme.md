@@ -491,6 +491,8 @@ R: Uma técnica para simular a execução de funções ou objetos
 
 
 **Outros controllers da academia**
+- In this class, you will create the remaining controllers (search and next) for the gyms feature. Upon creation, controllers will be added to the routes file.
+
 
 **Controllers das rotas de check-ins**
 
