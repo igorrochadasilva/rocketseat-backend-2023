@@ -483,8 +483,12 @@ R: Uma técnica para simular a execução de funções ou objetos
 
 
 **Teste E2E do perfil**
+- In this class, the e2e test will be implemented for the application's profile controller, using the supertest to perform the requests and validating whether the route is returning the correct data from the logged-in user's profile.
+
 
 **Controller de criação de academia**
+- In this class, the focus is on refactoring the routes file, leaving only the routes related to the users resource and creating a new route file for the gyms resource. Next, the controller for creating gyms is created, which will be used in the previously created routes.
+
 
 **Outros controllers da academia**
 
