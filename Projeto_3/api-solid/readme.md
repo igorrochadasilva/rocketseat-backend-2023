@@ -503,5 +503,6 @@ R: Uma técnica para simular a execução de funções ou objetos
 - In this class, the e2e tests will be created for the routes of the check-ins resource, using Supertest and the utility function created earlier to authenticate a user during the tests. They will be tested as check-in creation features, check-in history, analytics
 
 **Testes E2E de rotas de check-ins**
+- In this class, the e2e tests will be created for the routes of the check-ins resource, using Supertest and the utility function created earlier to authenticate a user during the tests. They will be tested as check-in creation features, check-in history, analytics
 
 **Quiz - Controllers & Testes E2E**
