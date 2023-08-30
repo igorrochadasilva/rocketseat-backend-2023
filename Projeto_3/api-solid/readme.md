@@ -529,3 +529,26 @@ Um atacante pode criar tokens falsos e se passar pelo usuário autenticado
 Questão 6. Qual o principal motivo de ser criado um Test Environment?
 Resposta
 Isolar o banco de dados para cada grupo de testes
+
+## Refresh Token & E2E
+
+**Estratégia de refresh de token**
+
+- In this class, the concept of Refresh Token in the context of JWT will be explained, and the initial implementation will be made, where the refresh token will be returned through cookies.
+
+[About Refresh Token]
+
+- The Refresh Token is a technique used to renew the authentication token after its expiration time. The Refresh Token is a long-lived token that is generated when the user logs in with their credentials. This token is used to get a new Access Token when the old one expires.
+
+- The Refresh Token is stored securely, usually in an HttpOnly cookie, so that it cannot be accessed by client-side scripts. When the Access Token expires, the client sends the Refresh Token to the server to get a new valid Access Token. This allows users to stay logged in for an extended period of time without having to log in repeatedly.
+
+- The use of Refresh Tokens is a recommended security practice in web applications, as it helps to minimize the risk of unauthorized access by third parties, especially if the authentication token is stolen or compromised.
+
+
+**Implementação do refresh token**
+
+**Autorização por cargos (RBAC)**
+
+**Testes de RBAC**
+
+**Quiz - Refresh Token & RBAC**
