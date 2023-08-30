@@ -506,3 +506,26 @@ R: Uma técnica para simular a execução de funções ou objetos
 - In this class, the e2e tests will be created for the routes of the check-ins resource, using Supertest and the utility function created earlier to authenticate a user during the tests. They will be tested as check-in creation features, check-in history, analytics
 
 **Quiz - Controllers & Testes E2E**
+Questão 1. O que significa a sigla JWT?
+Resposta
+JSON Web Token
+
+Questão 2. Qual é o formato padrão de um JWT?
+Resposta
+Um conjunto de pares chave-valor codificado em base64
+
+Questão 3. Como é feita a validação de um JWT?
+Resposta
+O servidor valida a assinatura digital contida no token
+
+Questão 4. Qual é a melhor forma de garantir a segurança de um JWT?
+Resposta
+Utilizar uma chave secreta forte para assinar e verificar a assinatura do token
+
+Questão 5. Qual é o risco de expor a chave secreta usada para assinar um JWT?
+Resposta
+Um atacante pode criar tokens falsos e se passar pelo usuário autenticado
+
+Questão 6. Qual o principal motivo de ser criado um Test Environment?
+Resposta
+Isolar o banco de dados para cada grupo de testes
