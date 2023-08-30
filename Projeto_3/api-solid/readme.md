@@ -544,8 +544,9 @@ Isolar o banco de dados para cada grupo de testes
 
 - The use of Refresh Tokens is a recommended security practice in web applications, as it helps to minimize the risk of unauthorized access by third parties, especially if the authentication token is stolen or compromised.
 
-
 **Implementação do refresh token**
+
+- In this class, the refresh token controller will be implemented, which will check if the refresh token is present in the cookies and, if it is valid, will generate a new JWT token for the user.
 
 **Autorização por cargos (RBAC)**
 
