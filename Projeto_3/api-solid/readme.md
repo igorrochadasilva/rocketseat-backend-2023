@@ -549,6 +549,10 @@ Isolar o banco de dados para cada grupo de testes
 - In this class, the refresh token controller will be implemented, which will check if the refresh token is present in the cookies and, if it is valid, will generate a new JWT token for the user.
 
 **Autorização por cargos (RBAC)**
+- RBAC (Role-Based Access Control) is a role-based access control model, where permissions are assigned based on the role or role that a user has within an organization.
+
+In class, it will be explained how this model works and how to implement RBAC validation in the application. This includes creating user roles with specific permissions and validating those permissions on routes and controllers. Proper implementation of RBAC can help ensure that only authorized users can access certain parts of the application and perform specific actions.
+
 
 **Testes de RBAC**
 
