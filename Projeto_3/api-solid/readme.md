@@ -553,7 +553,24 @@ Isolar o banco de dados para cada grupo de testes
 
 In class, it will be explained how this model works and how to implement RBAC validation in the application. This includes creating user roles with specific permissions and validating those permissions on routes and controllers. Proper implementation of RBAC can help ensure that only authorized users can access certain parts of the application and perform specific actions.
 
-
 **Testes de RBAC**
 
+- In this class, the goal is to fix the tests that broke after implementing function validation in the application. It will be necessary to adjust the tests to pass the correct role information to the routes, according to the new RBAC policy.
+
 **Quiz - Refresh Token & RBAC**
+
+Questão 1. O que é um Refresh Token?
+Resposta
+Um token usado para solicitar um novo Access Token sem precisar fazer login novamente.
+
+Questão 2. Qual é a principal vantagem do uso de Refresh Tokens em uma aplicação?
+Resposta
+Permitir que o usuário permaneça conectado por períodos mais longos sem precisar digitar suas credenciais novamente.
+
+Questão 3. O que acontece se um Refresh Token expirar?
+Resposta
+O usuário deve fazer login novamente.
+
+Questão 4. Como um Refresh Token é diferente de um Access Token?
+Resposta
+Um Refresh Token é usado para solicitar um novo Access Token, enquanto um Access Token é usado para acessar recursos do aplicativo.
