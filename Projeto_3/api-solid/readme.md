@@ -574,3 +574,11 @@ O usuário deve fazer login novamente.
 Questão 4. Como um Refresh Token é diferente de um Access Token?
 Resposta
 Um Refresh Token é usado para solicitar um novo Access Token, enquanto um Access Token é usado para acessar recursos do aplicativo.
+
+## CI/CD da Aplicação
+
+**Executando testes unitários no CI**
+
+In this class you will learn about CI/CD, its advantages and how to implement it. A GitHub Action will be created to run the unit tests automatically every time a push is made to the repository. This will help ensure that the code is working correctly before being merged into the main agency.
+
+**Executando testes E2E no CI**
