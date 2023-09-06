@@ -1,0 +1,43 @@
+# Projeto 4
+
+This project will be divided into two parts. The first module will focus on building the Domain layer of a forum API, following the concepts of DDD and Clean Architecture. In the next module, this domain layer will be connected to the infrastructure layer using the NestJS Framework.
+
+## DDD no Node.js
+
+In this module you will learn the fundamentals of Domain-Driven Design and Clean Architecture in building a REST API for a forum. You will learn to design the application architecture using DDD concepts, create Value Objects and Relationships, deal with errors in a functional way, develop use cases, unit tests, apply Subdomains and Domain Events.
+
+### Fundamentos do DDD
+
+**Design de software e DDD**
+
+In this class, the concept of Software Design and Domain-Driven Design (DDD) will be presented.
+
+Software Design refers to the intentional and organized creation of software systems, with the aim of satisfying specific user needs, meeting quality and performance requirements, and ensuring code maintainability.
+
+DDD (Domain Driven Design) is a software design approach that focuses on modeling the application domain to represent real-world business rules and concepts.
+
+**Entidades e casos de uso**
+
+**Primeiro caso de uso**
+
+**Mapeando relacionamentos**
+
+**Dependências externas**
+
+**Value Object de slug**
+
+**Classe base de entidades**
+
+**ID das entidades**
+
+**Mapeando propriedades**
+
+**Abstraindo criação de entidades**
+
+**Getters & Setters das entidades**
+
+**Path aliases e Vitest globals**
+
+**Glossário: DDD**
+
+**Mapeando o domínio**
