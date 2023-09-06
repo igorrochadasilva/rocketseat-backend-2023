@@ -1,0 +1,16 @@
+{
+  "name": "04-clean-ddd",
+  "version": "1.0.0",
+  "description": "This project will be divided into two parts. The first module will focus on building the Domain layer of a forum API, following the concepts of DDD and Clean Architecture. In the next module, this domain layer will be connected to the infrastructure layer using the NestJS Framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "typescript": "^5.2.2"
+  }
+}

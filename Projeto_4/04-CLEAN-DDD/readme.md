@@ -18,6 +18,14 @@ DDD (Domain Driven Design) is a software design approach that focuses on modelin
 
 **Entidades e casos de uso**
 
+In this class, the concepts of Entities and Use Cases in software development will be addressed.
+
+Entities represent real-world objects that have an identity and that maintain a state that is relevant to the application.
+
+Use cases describe the functionality (actions) that the software must perform to meet the needs of users or the business.
+
+They are essential for defining the scope and architecture of the system, and help ensure that the software is developed to meet the end user's needs.
+
 **Primeiro caso de uso**
 
 **Mapeando relacionamentos**
