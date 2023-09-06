@@ -34,6 +34,8 @@ Through OOP, we can create classes that represent these entities and use cases, 
 
 **Mapeando relacionamentos**
 
+In this class, it will be presented how to map the relationships between the entities of a system, using only the id property of each entity.
+
 **Dependências externas**
 
 **Value Object de slug**
