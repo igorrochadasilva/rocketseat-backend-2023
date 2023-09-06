@@ -28,6 +28,10 @@ They are essential for defining the scope and architecture of the system, and he
 
 **Primeiro caso de uso**
 
+In this class, we will implement the entities and use cases using Object Oriented Programming (OOP).
+
+Through OOP, we can create classes that represent these entities and use cases, making the code more organized and structured.
+
 **Mapeando relacionamentos**
 
 **Dependências externas**
