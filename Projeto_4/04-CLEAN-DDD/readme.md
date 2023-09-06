@@ -37,6 +37,7 @@ Through OOP, we can create classes that represent these entities and use cases, 
 In this class, it will be presented how to map the relationships between the entities of a system, using only the id property of each entity.
 
 **Dependências externas**
+In this class, the contract interface of the AnswersRepository class, which is an external dependency of the persistence layer, will be broken. This will allow a usage class to be able to use it without relying directly on the concrete implementation of the class.
 
 **Value Object de slug**
 

@@ -4,7 +4,8 @@
   "description": "This project will be divided into two parts. The first module will focus on building the Domain layer of a forum API, following the concepts of DDD and Clean Architecture. In the next module, this domain layer will be connected to the infrastructure layer using the NestJS Framework.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "keywords": [],
   "author": "",
