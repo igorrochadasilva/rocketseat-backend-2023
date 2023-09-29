@@ -41,6 +41,11 @@ In this class, the contract interface of the AnswersRepository class, which is a
 
 **Value Object de slug**
 
+In this class, the concept of Value Object will be explained and how to use it to represent a property that has its own rules independent of the entity.
+
+A Value Object class will be implemented to represent the slug value of a question.
+
+
 **Classe base de entidades**
 
 **ID das entidades**
