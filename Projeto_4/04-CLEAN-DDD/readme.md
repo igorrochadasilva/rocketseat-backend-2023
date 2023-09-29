@@ -48,7 +48,10 @@ A Value Object class will be implemented to represent the slug value of a questi
 
 **Classe base de entidades**
 
+In this class, a class called Entity will be broken, which will serve as the basis for the other entities in the application. Entities will be created from the Entity class, thus inheriting its common properties and methods.
+
 **ID das entidades**
+In this class, a class called UniqueEntityID is implemented, whose purpose is to manage the creation of unique identifiers for application entities. This class will be used by the Entity base class to manage the identification of other entities in the application.
 
 **Mapeando propriedades**
 
