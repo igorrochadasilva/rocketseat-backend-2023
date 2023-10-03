@@ -54,8 +54,10 @@ In this class, a class called Entity will be broken, which will serve as the bas
 In this class, a class called UniqueEntityID is implemented, whose purpose is to manage the creation of unique identifiers for application entities. This class will be used by the Entity base class to manage the identification of other entities in the application.
 
 **Mapeando propriedades**
+In this class, the properties of the Answer and Question entities will be mapped.
 
 **Abstraindo criação de entidades**
+In this class, the creation of entities will be covered in summary using a static method called create, allowing the creation of entity instances to be done in a simpler and more readable way. Furthermore, a TypeScript Generic will be implemented to allow some properties to be indicated.
 
 **Getters & Setters das entidades**
 
