@@ -60,8 +60,10 @@ In this class, the properties of the Answer and Question entities will be mapped
 In this class, the creation of entities will be covered in summary using a static method called create, allowing the creation of entity instances to be done in a simpler and more readable way. Furthermore, a TypeScript Generic will be implemented to allow some properties to be indicated.
 
 **Getters & Setters das entidades**
+In this class, getters and setters methods will be implemented in the application entities, allowing access and modification of the values ​​of their properties in a controlled manner.
 
 **Path aliases e Vitest globals**
+In this class, it will be explained how to configure TypeScript alias paths, in order to improve code organization, and how to configure Jest globally so that it is possible to use vitest methods without having to import them.
 
 **Glossário: DDD**
 
