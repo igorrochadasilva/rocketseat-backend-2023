@@ -582,3 +582,5 @@ Um Refresh Token é usado para solicitar um novo Access Token, enquanto um Acces
 In this class you will learn about CI/CD, its advantages and how to implement it. A GitHub Action will be created to run the unit tests automatically every time a push is made to the repository. This will help ensure that the code is working correctly before being merged into the main agency.
 
 **Executando testes E2E no CI**
+
+This class will explain how to configure a GitHub Action to run the e2e tests automatically every time a pull request is created. The steps required to configure the Action and ensure that the tests run consistently and reliably will be presented.

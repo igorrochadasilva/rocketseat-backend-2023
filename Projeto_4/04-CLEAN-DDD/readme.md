@@ -67,4 +67,36 @@ In this class, it will be explained how to configure TypeScript alias paths, in 
 
 **Glossário: DDD**
 
+Com base no diálogo fornecido, podemos identificar as seguintes entidades de domínio:
+
+Produto: Esta é uma entidade que representa os produtos em estoque. Cada produto possui informações como um número de identificação único, tamanho, cor e quantidade em estoque.
+
+Estoque: Representa o conjunto de produtos armazenados em um determinado momento.
+
+Limite Mínimo de Estoque: Uma quantidade mínima predefinida para cada produto que indica quando um alerta deve ser gerado.
+
+Alerta: Uma notificação que é acionada quando a quantidade de um produto no estoque está próxima ou abaixo do limite mínimo de estoque.
+
+Histórico de Vendas: Um registro das vendas passadas que inclui informações sobre a quantidade de produtos vendidos, o lucro gerado e os produtos mais vendidos em um determinado período.
+
+Ordem de Compra: Uma solicitação para adquirir produtos quando o estoque atinge o limite mínimo.
+
+Fornecedor: Entidade que fornece produtos à empresa.
+
+Com base nas informações fornecidas no diálogo, as seguintes ações (casos de uso) que essa aplicação deve ter podem ser identificadas:
+
+Rastreamento Individual de Produtos: A aplicação deve permitir a atribuição de números de identificação únicos a cada produto e a inclusão de informações adicionais, como tamanho e cor, para rastreamento preciso.
+
+Definição de Quantidades Mínimas de Estoque: Os usuários devem ser capazes de definir limites mínimos de estoque para cada produto.
+
+Recebimento de Alertas: O sistema deve ser capaz de gerar alertas por e-mail e notificações quando a quantidade de um produto estiver próxima ou abaixo do limite mínimo de estoque.
+
+Visualização de Histórico de Vendas e Estoque: Os usuários devem poder visualizar informações sobre vendas passadas, lucros, produtos mais vendidos e tendências de estoque ao longo do tempo.
+
+Criação e Gerenciamento de Ordens de Compra: A aplicação deve permitir a criação e gerenciamento de ordens de compra automaticamente com base nas quantidades mínimas de estoque e nas tendências de vendas.
+
+Integração com Fornecedores: Ser capaz de integrar o sistema com fornecedores para receber atualizações automáticas sobre os prazos de entrega de novas remessas.
+
+Essas são as principais ações e entidades identificadas com base no diálogo fornecido para o sistema de gerenciamento de estoque.
+
 **Mapeando o domínio**
